@@ -7,4 +7,4 @@ build:
 remove: 
 	docker rm -f vfs-app
 run:
-	docker run --name vfs-app --link selenium-hub vfs go run main.go
+	docker run --name vfs-app --link selenium-hub vfs

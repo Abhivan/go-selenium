@@ -73,7 +73,7 @@ func main() {
 	if strings.Contains(msg, "Sorry") == true {
 		fmt.Printf("Not sending alerts")
 	} else {
-		err := SendMail("127.0.0.1:25", (&mail.Address{"from name", "vfs-alertt@localhost"}).String(), "Alert- Appointments Now available", "Not available", []string{(&mail.Address{"to name", "vfsappalert@getnada.com"}).String()})
+		err := SendMail("127.0.0.1:25", (&mail.Address{"from name", "vfs-alertt@localhost"}).String(), "Alert- Appointments Now available", "Now appointments are available", []string{(&mail.Address{"to name", "yskci18971@adeata.com"}).String()})
 		if err != nil {
 			panic(err)
 		}
